@@ -1,3 +1,19 @@
-let myName = document.querySelector('h1');
+// ====PRACTICE CODE : #1 ========
 
-myName.innerHTML = "Aryan singh";
+/*
+
+let increNumber = document.getElementById('incrementNum');
+
+let decreNumber = document.getElementById('decrementNum');
+
+// INCREMENT NUMBER FUNCTION
+function incremNumFunc() {
+    increNumber.innerHTML++;
+}
+
+//DECREMENT NUMBER FUNCTION
+function decremNumFunc() {
+    decreNumber.innerHTML--;
+}
+
+*/
