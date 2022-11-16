@@ -17,3 +17,19 @@ function decremNumFunc() {
 }
 
 */
+
+// ====PRACTICE CODE : #2 ========
+/*
+let myTitle = document.getElementById('title');
+let myContent = document.getElementById('content');
+
+function showContent() {
+    myContent.style.display = 'block';
+}
+
+function hideContent() {
+    myContent.style.display = 'none';
+}
+*/
+
+// ====PRACTICE CODE : #3 ========
