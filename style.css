@@ -252,8 +252,10 @@
 } */
 
 
-/* ================#05 ==============  */
+/* ================#06 ==============  */
 
+
+/* 
 .container {
     width: 100%;
     height: 100vh;
@@ -315,4 +317,96 @@
     padding: 0.4rem 1rem;
     border-radius: 0.3rem;
     cursor: pointer;
+} */
+
+
+/* ================#07 ==============  */
+
+
+/* 
+header {
+    width: 100%;
+    height: 100vh;
 }
+
+header .container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0rem;
+}
+
+header .container .menu ul {
+    display: flex;
+}
+
+header .container .menu ul li {
+    list-style: none;
+    padding: 0rem 0.5rem;
+}
+
+header .container .menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header .container .humburger-menu {
+    cursor: pointer;
+}
+
+header .container .line {
+    display: block;
+    width: 20px;
+    height: 1px;
+    background-color: black;
+    color: black;
+    padding: 0.05rem 0.5rem;
+    margin: 0.2rem 0rem;
+}
+ */
+
+
+/* ---- .content ---  */
+
+
+/* 
+
+.content {
+    width: 20%;
+    height: 100vh;
+    background-color: orangered;
+    position: absolute;
+    top: 0px;
+    left: -600px;
+}
+
+.content .menu {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .menu ul li {
+    list-style: none;
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+.content .menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.content .menu ul #cancelBtn {
+    color: white;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+ */
+
+
+/* ================#08 ==============  */

@@ -146,7 +146,7 @@ function logInSucess() {
 
 
 // ====PRACTICE CODE : #6 ========
-
+/*
 let popDisplayHide = document.getElementById('pop-window');
 
 popDisplayHide.style.display = 'none';
@@ -158,3 +158,21 @@ function poppapOpenFunc() {
 function poppapCloseFunc() {
     popDisplayHide.style.display = 'none';
 }
+*/
+
+// ====PRACTICE CODE : #7 ========
+/*
+let myContent = document.getElementById('elementMain');
+
+function showContent() {
+    myContent.style.left = '0px';
+    myContent.style.transition = "all 0.5s"
+}
+
+function hideContent() {
+    myContent.style.left = '-600px';
+    myContent.style.transition = "all 0.5s"
+}
+*/
+
+// ====PRACTICE CODE : #8 =======
