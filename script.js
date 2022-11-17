@@ -146,3 +146,15 @@ function logInSucess() {
 
 
 // ====PRACTICE CODE : #6 ========
+
+let popDisplayHide = document.getElementById('pop-window');
+
+popDisplayHide.style.display = 'none';
+
+function poppapOpenFunc() {
+    popDisplayHide.style.display = 'block';
+}
+
+function poppapCloseFunc() {
+    popDisplayHide.style.display = 'none';
+}
