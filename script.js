@@ -176,3 +176,26 @@ function hideContent() {
 */
 
 // ====PRACTICE CODE : #8 =======
+/*
+let marketingArea = document.getElementById('market');
+let industryArea = document.getElementById('industrial');
+
+industryArea.style.display = 'none';
+
+
+function showMarketingFunc() {
+    marketingArea.style.display = 'flex';
+    if (industryArea.style.display == 'flex') {
+        industryArea.style.display = 'none';
+    }
+}
+
+function showIndustryFunc() {
+    industryArea.style.display = 'flex';
+    if (marketingArea.style.display == 'flex') {
+        marketingArea.style.display = 'none';
+    }
+}
+*/
+
+// ====PRACTICE CODE : #9 =======
