@@ -561,3 +561,44 @@ header .container .right h1 {
 
 
 /* ================#10 ==============  */
+
+
+/* 
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+    padding: 3rem 0rem;
+}
+
+header .container .card {
+    width: 100%;
+}
+
+header .container .card .content {
+    width: 100%;
+    padding: 1rem 1rem;
+    margin: 1rem 0rem;
+    background-color: rgba(128, 128, 128, 0.156);
+    border-radius: 0.5rem;
+}
+
+header .container .card .content h2 {
+    padding: 1rem 0rem;
+    text-align: center;
+}
+
+header .container .card .content p {
+    line-height: 1.7;
+    font-size: 0.8rem;
+} */
+
+
+/* ================#11 ==============  */
