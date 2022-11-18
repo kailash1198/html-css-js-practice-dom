@@ -198,4 +198,50 @@ function showIndustryFunc() {
 }
 */
 
+
 // ====PRACTICE CODE : #9 =======
+/*
+let menuSection = document.getElementById('menu-content');
+
+let aboutSection = document.getElementById('about-content');
+
+let contactSection = document.getElementById('contact-content');
+
+menuSection.style.display = 'block';
+aboutSection.style.display = 'none';
+contactSection.style.display = 'none';
+
+
+function showMenu() {
+
+    if (aboutSection.style.display == 'none' && contactSection.style.display == 'none') {
+        menuSection.style.display = 'block';
+    } else if (contactSection.style.display == 'block' && menuSection.style.display == 'none') {
+        menuSection.style.display = 'block';
+        contactSection.style.display = 'none';
+    }
+}
+
+function showAbout() {
+
+
+    if (menuSection.style.display == 'block' && contactSection.style.display == 'none') {
+        aboutSection.style.display = 'block';
+        menuSection.style.display = 'none';
+    }
+}
+
+function showContact() {
+
+
+    if (menuSection.style.display == 'block' && aboutSection.style.display == 'none') {
+        contactSection.style.display = 'block';
+        menuSection.style.display = 'none';
+    } else if (aboutSection.style.display == 'block' && menuSection.style.display == 'none') {
+        aboutSection.style.display = 'none';
+        contactSection.style.display = 'block';
+    }
+}
+*/
+
+// ====PRACTICE CODE : #10 =======
