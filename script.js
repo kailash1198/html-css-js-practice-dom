@@ -267,7 +267,7 @@ function hideLogInForm() {
 
 
 // ====PRACTICE CODE : #12 =======
-
+/*
 let myMenu = document.getElementById('menu-bar');
 
 let myClose = document.getElementById('close-menu');
@@ -289,5 +289,23 @@ function showMenu() {
         myContentShow.style.transition = 'all 0.9s';
         myMenu.style.display = 'block';
         myClose.style.display = 'none';
+    }
+}
+*/
+
+
+
+// ====PRACTICE CODE : #13 =======
+
+let cardBox = document.querySelector('.card');
+let showContent = document.getElementById('myContent');
+
+showContent.style.display = 'none';
+
+function showContentEffect() {
+    if (showContent.style.display == 'none') {
+        showContent.style.display = 'block';
+    } else if (showContent.style.display == 'block') {
+        showContent.style.display = 'none';
     }
 }
