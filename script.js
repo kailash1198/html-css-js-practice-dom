@@ -267,3 +267,27 @@ function hideLogInForm() {
 
 
 // ====PRACTICE CODE : #12 =======
+
+let myMenu = document.getElementById('menu-bar');
+
+let myClose = document.getElementById('close-menu');
+let myContentShow = document.getElementById('content');
+myClose.style.display = 'none';
+
+function hideMenu() {
+    myMenu.style.display = 'none';
+    if (myMenu.style.display == 'none') {
+        myContentShow.style.left = '0px';
+        myContentShow.style.transition = 'all 0.9s';
+        myClose.style.display = 'block';
+    }
+}
+
+function showMenu() {
+    if (myClose.style.display != 'none') {
+        myContentShow.style.left = '-100%';
+        myContentShow.style.transition = 'all 0.9s';
+        myMenu.style.display = 'block';
+        myClose.style.display = 'none';
+    }
+}
