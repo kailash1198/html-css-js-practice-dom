@@ -245,3 +245,25 @@ function showContact() {
 */
 
 // ====PRACTICE CODE : #11 =======
+/*
+let logInFormSection = document.getElementById('logIn');
+
+let signUpFormSection = document.getElementById('signUp');
+
+signUpFormSection.style.display = 'none';
+
+signUpFormSection.style.display = 'none';
+
+function hideLogInForm() {
+
+    if (logInFormSection.style.display != 'none') {
+        signUpFormSection.style.display = 'block';
+        logInFormSection.style.display = 'none';
+        logInFormSection.style.transition = 'all 0.5s';
+    }
+
+}
+*/
+
+
+// ====PRACTICE CODE : #12 =======
