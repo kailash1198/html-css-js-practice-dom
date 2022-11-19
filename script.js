@@ -352,3 +352,27 @@ myBtn.onclick = function() {
 */
 
 // ====PRACTICE CODE : #16 =======
+
+/*
+let mySubmitBtn = document.getElementById('my-btn');
+let popBox = document.getElementById('pop-card');
+let noPopBtn = document.getElementById('pop-close');
+let yesPopBtn = document.getElementById('pop-yes');
+
+popBox.style.display = 'none';
+mySubmitBtn.onclick = function() {
+    popBox.style.display = 'block';
+}
+
+noPopBtn.onclick = function() {
+    popBox.style.display = 'none';
+}
+
+yesPopBtn.onclick = function() {
+    popBox.style.display = 'none';
+}
+*/
+
+
+
+// ====PRACTICE CODE : #17 =======

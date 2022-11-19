@@ -1012,3 +1012,78 @@ header .container #card li {
 
 
 /* ================#16 ==============  */
+
+
+/* header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+}
+
+header .container .card {
+    width: 100%;
+}
+
+header .container .card h1 {
+    text-align: center;
+}
+
+header .container .card p {
+    padding: 1rem 0rem;
+}
+
+header .container .card .btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+header .container .card .btn button {
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3rem;
+    background-color: orangered;
+    color: white;
+}
+
+header .container #pop-card {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    z-index: 1;
+    box-shadow: 1px 3px 30px rgba(128, 128, 128, 0.378);
+}
+
+header .container #pop-card p {
+    text-align: center;
+    padding: 0.5rem 0rem;
+}
+
+header .container #pop-card .btn {
+    display: flex;
+    justify-content: center;
+}
+
+header .container #pop-card .btn button {
+    padding: 0.5rem 1rem;
+    margin: 0rem 0.5rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: rgba(176, 169, 169, 0.266);
+    cursor: pointer;
+    box-shadow: 1px 3px 30px white;
+} */
+
+
+/* ================#17 ==============  */
