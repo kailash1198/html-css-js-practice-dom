@@ -333,3 +333,22 @@ nextBtn.onclick = function() {
 
 
 // ====PRACTICE CODE : #15 =======
+
+/*
+let myBtn = document.getElementById('icon');
+let myContent = document.getElementById('card');
+
+myContent.style.display = 'none';
+
+myBtn.onclick = function() {
+
+    if (myContent.style.display == 'none') {
+        myContent.style.display = 'inline-block';
+        myContent.style.transition = 'all 0.5s';
+    } else {
+        myContent.style.display = 'none';
+    }
+}
+*/
+
+// ====PRACTICE CODE : #16 =======

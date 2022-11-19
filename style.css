@@ -980,3 +980,35 @@ header .container .action-btn button {
 
 
 /* ================#15 ==============  */
+
+
+/* header {
+    width: 100%;
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+}
+
+header .container #btn {
+    padding: 1rem 0rem;
+}
+
+header .container #card {
+    background-color: rgb(242, 5, 5);
+    padding: 1.5rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 80px;
+    z-index: 1;
+    color: white;
+}
+
+header .container #card li {
+    padding: 0.5rem 0rem;
+} */
+
+
+/* ================#16 ==============  */
