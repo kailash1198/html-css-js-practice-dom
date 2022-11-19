@@ -889,7 +889,8 @@ header .container #nav .menu li i {
 
 /* ================#13 ==============  */
 
-header {
+
+/* header {
     width: 100vw;
     height: 100vh;
 }
@@ -910,7 +911,6 @@ header .container .card {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    /* padding: 4rem; */
     border-radius: 1rem;
 }
 
@@ -919,4 +919,64 @@ header .container .card .content {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.606);
     padding: 5rem;
+} */
+
+
+/* ================#14 ==============  */
+
+
+/* header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+header .container {
+    width: 70%;
+    margin: auto;
+}
+
+header .container .team {
+    padding: 1rem 0rem;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    overflow-x: hidden;
+}
+
+header .container .team .card {
+    width: 100%;
+    margin: 1rem;
+    text-align: center;
+}
+
+header .container .team .team-img {
+    width: 600px;
+}
+
+header .container .team .team-img img {
+    width: 100%;
+}
+
+header .container .team p {
+    font-size: 0.7rem;
+}
+
+header .container .action-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .container .action-btn button {
+    margin: 0rem 1rem;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 2rem;
+} */
+
+
+/* ================#15 ==============  */

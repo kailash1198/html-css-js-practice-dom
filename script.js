@@ -297,6 +297,7 @@ function showMenu() {
 
 // ====PRACTICE CODE : #13 =======
 
+/*
 let cardBox = document.querySelector('.card');
 let showContent = document.getElementById('myContent');
 
@@ -309,3 +310,26 @@ function showContentEffect() {
         showContent.style.display = 'none';
     }
 }
+*/
+
+
+// ====PRACTICE CODE : #14 =======
+/*
+let backBtn = document.getElementById('back');
+let nextBtn = document.getElementById('next');
+
+const scrollContainer = document.querySelector(".team");
+
+backBtn.onclick = function() {
+    scrollContainer.scrollLeft += 500;
+    scrollContainer(this.style.transition = 'all 0.5s');
+}
+
+nextBtn.onclick = function() {
+    scrollContainer.scrollLeft -= 500;
+}
+*/
+
+
+
+// ====PRACTICE CODE : #15 =======
