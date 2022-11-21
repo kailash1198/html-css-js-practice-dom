@@ -376,3 +376,71 @@ yesPopBtn.onclick = function() {
 
 
 // ====PRACTICE CODE : #17 =======
+/*
+let myPara = document.getElementById('para');
+let myHeading = document.getElementById('heading');
+
+myHeading.style.display = 'none';
+
+myPara.addEventListener("mouseover", function() {
+    myHeading.style.display = 'block';
+})
+
+myPara.addEventListener("mouseout", function() {
+    myHeading.style.display = 'none';
+})
+*/
+
+// ====PRACTICE CODE : #18 =======
+/*
+let myPara = document.getElementById('para');
+let myHeading = document.getElementById('heading');
+
+myHeading.style.display = 'none';
+
+myPara.addEventListener("dblclick", function() {
+    myHeading.style.display = 'block';
+})
+*/
+
+// ====PRACTICE CODE : #19 =======
+
+// let myCardOne = document.getElementById('my-card1');
+// myCardOne.style.display = 'none';
+
+//  
+
+let myCard4 = document.getElementById('my-card4');
+myCard4.style.display = 'none';
+
+let myCard5 = document.getElementById('my-card5');
+myCard5.style.display = 'none';
+
+let myCard6 = document.getElementById('my-card6');
+myCard6.style.display = 'none';
+
+let myCard7 = document.getElementById('my-card7');
+myCard7.style.display = 'none';
+
+// document.addEventListener("scroll", function() {
+//     myCardOne.style.display = 'block';
+// })
+
+// document.addEventListener("scroll", function() {
+//     myCardTwo.style.display = 'block';
+// })
+// document.addEventListener("scroll", function() {
+//     myCard3.style.display = 'block';
+// })
+document.addEventListener("scroll", function() {
+    myCard4.style.display = 'block';
+})
+document.addEventListener("scroll", function() {
+    myCard5.style.display = 'block';
+})
+document.addEventListener("scroll", function() {
+    myCard6.style.display = 'block';
+})
+document.addEventListener("scroll", function() {
+    myCard7.style.display = 'block';
+})

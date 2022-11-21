@@ -1086,4 +1086,54 @@ header .container #pop-card .btn button {
 } */
 
 
-/* ================#17 ==============  */
+/* ================#19 ==============  */
+
+header {
+    width: 100%;
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+    padding: 3rem 0rem;
+}
+
+header .container .card {
+    margin: 2rem 0rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+header .container .card p {
+    color: gray;
+    padding: 0.5rem 0rem;
+    font-size: 0.9rem;
+}
+
+header .container #my-card1 {
+    background-color: rgba(255, 68, 0, 0.147);
+}
+
+header .container #my-card2 {
+    background-color: rgba(100, 110, 225, 0.147);
+}
+
+header .container #my-card3 {
+    background-color: rgba(234, 121, 121, 0.147);
+}
+
+header .container #my-card4 {
+    background-color: rgba(121, 197, 235, 0.366);
+}
+
+header .container #my-card5 {
+    background-color: rgba(205, 202, 49, 0.428);
+}
+
+header .container #my-card6 {
+    background-color: rgba(100, 225, 112, 0.405);
+}
+
+header .container #my-card7 {
+    background-color: rgba(208, 73, 170, 0.147);
+}
