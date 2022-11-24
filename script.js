@@ -404,11 +404,7 @@ myPara.addEventListener("dblclick", function() {
 */
 
 // ====PRACTICE CODE : #19 =======
-
-// let myCardOne = document.getElementById('my-card1');
-// myCardOne.style.display = 'none';
-
-//  
+/*
 
 let myCard4 = document.getElementById('my-card4');
 myCard4.style.display = 'none';
@@ -422,16 +418,7 @@ myCard6.style.display = 'none';
 let myCard7 = document.getElementById('my-card7');
 myCard7.style.display = 'none';
 
-// document.addEventListener("scroll", function() {
-//     myCardOne.style.display = 'block';
-// })
 
-// document.addEventListener("scroll", function() {
-//     myCardTwo.style.display = 'block';
-// })
-// document.addEventListener("scroll", function() {
-//     myCard3.style.display = 'block';
-// })
 document.addEventListener("scroll", function() {
     myCard4.style.display = 'block';
 })
@@ -444,3 +431,18 @@ document.addEventListener("scroll", function() {
 document.addEventListener("scroll", function() {
     myCard7.style.display = 'block';
 })
+*/
+
+// ====PRACTICE CODE : #20 =======
+/*
+let myHeading = document.getElementById('heading');
+let myParagraph = document.getElementById('myPara');
+
+paraHide = myParagraph.style.display = 'none';
+
+document.addEventListener('keypress', function() {
+    paraHide = myParagraph.style.display = 'block';
+})
+*/
+
+// ====PRACTICE CODE : #21 =======
