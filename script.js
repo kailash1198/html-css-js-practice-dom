@@ -446,3 +446,23 @@ document.addEventListener('keypress', function() {
 */
 
 // ====PRACTICE CODE : #21 =======
+/*
+let myBtn = document.getElementById('change-color-btn');
+let myCard = document.getElementById('card1');
+let myPara = document.getElementById('fonts');
+
+myBtn.addEventListener('click', function() {
+    var chooseColor = prompt("Enter your color name");
+    if (chooseColor == "black") {
+        myCard.classList.add("black-color");
+        myCard.classList.remove("card");
+        myPara.classList.add("bold");
+    } else if (chooseColor == "red") {
+        myCard.classList.add("red-color");
+        myCard.classList.remove("card");
+        myPara.classList.add("bold");
+    }
+})
+*/
+
+// ====PRACTICE CODE : #22 =======

@@ -1170,3 +1170,70 @@ header .container::before {
 
 
 /* ================#21 ==============  */
+
+
+/* header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container {
+    width: 50%;
+    margin: auto;
+}
+
+header .container .card {
+    background-color: rgba(128, 128, 128, 0.193);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+header .container .card h1 {
+    text-align: center;
+    padding: 1rem 0rem;
+}
+
+header .container .btn {
+    width: 100%;
+    padding: 1rem 0rem;
+    display: flex;
+    justify-content: center;
+}
+
+header .container .btn button {
+    padding: 0.5rem 1.5rem;
+    background-color: orangered;
+    border: none;
+    color: white;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+header .container .btn button:hover {
+    background-color: rgb(212, 81, 33);
+}
+
+.red-color {
+    background-color: red;
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.black-color {
+    background-color: black;
+    color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.bold {
+    font-weight: bold;
+} */
+
+
+/* ================#22 ==============  */
