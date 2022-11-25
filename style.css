@@ -1237,3 +1237,47 @@ header .container .btn button:hover {
 
 
 /* ================#22 ==============  */
+
+
+/* #btn {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    border-radius: 50%;
+    font-size: 7rem;
+    background-color: transparent;
+    border: none;
+    color: rgba(255, 255, 255, 0.442);
+    cursor: alias;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+header .container {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.slider1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./asset/slider-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.slider2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('./asset/slider-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+} */

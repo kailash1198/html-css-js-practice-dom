@@ -466,3 +466,19 @@ myBtn.addEventListener('click', function() {
 */
 
 // ====PRACTICE CODE : #22 =======
+
+/*
+let myCard = document.getElementById('slider-box');
+let myBtn = document.getElementById('btn');
+if (myCard.classList.contains('slider1')) {
+    myBtn.addEventListener('click', function() {
+        myCard.classList.add('slider2');
+        if (myCard.classList.contains('slider2')) {
+            myBtn.addEventListener('click', function() {
+                myCard.classList.add('slider1');
+                myCard.classList.remove('slider2');
+            });
+        }
+    });
+}
+*/
