@@ -482,3 +482,19 @@ if (myCard.classList.contains('slider1')) {
     });
 }
 */
+
+
+// ====PRACTICE CODE : #23 =======
+/*
+var userInputField = document.getElementById("user-input");
+let userOutputTarget = document.getElementById('user-messege');
+
+userOutputTarget.style.display = 'none';
+
+
+
+function showData() {
+    userOutputTarget.innerHTML += userInputField.value;
+    userOutputTarget.style.display = 'block';
+}
+*/
