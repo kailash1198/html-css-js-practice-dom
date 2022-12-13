@@ -498,3 +498,29 @@ function showData() {
     userOutputTarget.style.display = 'block';
 }
 */
+
+// ====PRACTICE CODE : #24 =======
+
+let myBtn = document.getElementById('add-task');
+let submitBtn = document.getElementById('submit');
+let userTaskName = document.getElementById('task-name');
+let closeBtn = document.getElementById('close');
+let myWindow = document.getElementById('task-window');
+
+let task = document.getElementById('task');
+
+myWindow.style.display = 'none';
+
+myBtn.addEventListener('click', function() {
+    myWindow.style.display = 'block';
+    closeBtn.addEventListener('click', function() {
+        myWindow.style.display = 'none';
+    })
+
+})
+
+submitBtn.addEventListener('click', function() {
+    if (userTaskName.value != null) {
+        task.innerText = userTaskName.value;
+    }
+})
