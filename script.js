@@ -500,7 +500,7 @@ function showData() {
 */
 
 // ====PRACTICE CODE : #24 =======
-
+/*
 let myBtn = document.getElementById('add-task');
 let submitBtn = document.getElementById('submit');
 let userTaskName = document.getElementById('task-name');
@@ -524,3 +524,24 @@ submitBtn.addEventListener('click', function() {
         task.innerText = userTaskName.value;
     }
 })
+*/
+
+// ====PRACTICE CODE : #25 =======
+
+let loadBtn = document.getElementById('loading-btn');
+let cardContainer = document.getElementsByClassName('load-container');
+
+let myCard1 = document.getElementById('load-card').style.display = 'none';
+let myCard2 = document.getElementById('load-card2').style.display = 'none';
+
+
+
+
+
+loadBtn.addEventListener('click', showCard);
+
+function showCard() {
+    for (let i = 0; i <= cardContainer.length; i++) {
+        cardContainer[i].style.display = "flex";
+    }
+}

@@ -1337,6 +1337,8 @@ header .container .card #comment-sec button {
 
 /* ================#24 ==============  */
 
+
+/* 
 header {
     width: 100vw;
     height: 100vh;
@@ -1398,9 +1400,6 @@ header .container .task-btn .pop-window i {
     cursor: pointer;
 }
 
-
-/* ----- task list ----  */
-
 header .container .task-list {
     width: 60%;
     height: 100%;
@@ -1408,4 +1407,68 @@ header .container .task-list {
 
 header .container .task-list li {
     padding: 1rem 1rem;
+}
+
+*/
+
+
+/* ================#25 ==============  */
+
+header {
+    width: 100%;
+    padding: 5rem 0rem;
+}
+
+header .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+header .container .card {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: rgba(128, 128, 128, 0.393);
+    margin: 1rem;
+}
+
+header .load-btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header #loading-btn {
+    padding: 1rem;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+#load-card {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.card {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: rgba(128, 128, 128, 0.393);
+    margin: 1rem;
+}
+
+#load-card2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.card {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: rgba(128, 128, 128, 0.393);
+    margin: 1rem;
 }
