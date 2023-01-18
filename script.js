@@ -527,12 +527,19 @@ submitBtn.addEventListener('click', function() {
 */
 
 // ====PRACTICE CODE : #25 =======
-
+/*
 let loadBtn = document.getElementById('loading-btn');
 let cardContainer = document.getElementsByClassName('load-container');
 
-let myCard1 = document.getElementById('load-card').style.display = 'none';
-let myCard2 = document.getElementById('load-card2').style.display = 'none';
+let myCard1 = document.getElementById('load-card');
+let myCard2 = document.getElementById('load-card2');
+let myCard3 = document.getElementById('load-card3');
+let myCard4 = document.getElementById('load-card4');
+
+myCard1.style.display = 'none';
+myCard2.style.display = 'none';
+myCard3.style.display = 'none';
+myCard4.style.display = 'none';
 
 
 
@@ -541,7 +548,16 @@ let myCard2 = document.getElementById('load-card2').style.display = 'none';
 loadBtn.addEventListener('click', showCard);
 
 function showCard() {
-    for (let i = 0; i <= cardContainer.length; i++) {
-        cardContainer[i].style.display = "flex";
+    if (myCard1.style.display == 'none') {
+        document.getElementById('load-card').style.display = 'flex';
+    } else if (myCard2.style.display == 'none') {
+        document.getElementById('load-card2').style.display = 'flex';
+    } else if (myCard3.style.display == 'none') {
+        document.getElementById('load-card3').style.display = 'flex';
+    } else if (myCard4.style.display == 'none') {
+        document.getElementById('load-card4').style.display = 'flex';
     }
+
 }
+
+*/

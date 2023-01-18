@@ -1414,6 +1414,8 @@ header .container .task-list li {
 
 /* ================#25 ==============  */
 
+
+/* 
 header {
     width: 100%;
     padding: 5rem 0rem;
@@ -1472,3 +1474,22 @@ header #loading-btn {
     background-color: rgba(128, 128, 128, 0.393);
     margin: 1rem;
 }
+
+#load-card3 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.card {
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background-color: rgba(128, 128, 128, 0.393);
+    margin: 1rem;
+}
+
+#load-card4 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+} */
