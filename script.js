@@ -561,3 +561,5 @@ function showCard() {
 }
 
 */
+
+// ====PRACTICE CODE : #27 =======
