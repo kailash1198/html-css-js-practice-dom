@@ -579,3 +579,33 @@ document.addEventListener('scroll', () => {
 */
 
 // ====PRACTICE CODE : #28 =======
+// let backBtn = document.getElementById('back');
+// let nextBtn = document.getElementById('next');
+
+// let myCard1 = document.getElementById('card-1');
+// let myCard2 = document.getElementById('card-2');
+
+// myCard1.style.display = 'block';
+// myCard2.style.display = 'none';
+
+// backBtn.addEventListener('click', () => {
+
+//     myCard2.style.display = 'block';
+//     myCard2.style.left = '0px';
+//     myCard2.style.transition = 'all 0.5s ease';
+//     myCard1.style.display = 'none';
+
+// })
+
+
+// nextBtn.addEventListener('click', () => {
+//     if (myCard3.style.display == 'block' && myCard1.style.display == 'none') {
+//         myCard2.style.display = 'block';
+//         myCard2.style.transition = 'all 0.5s';
+//         myCard3.style.display = 'none';
+//     } else if (myCard2.style.display == 'block' && myCard1.style.display == 'none') {
+//         myCard3.style.display = 'block';
+//         myCard3.style.transition = 'all 0.5s';
+//         myCard2.style.display = 'none';
+//     }
+// })

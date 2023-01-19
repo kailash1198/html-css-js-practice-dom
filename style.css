@@ -1469,3 +1469,65 @@ header #loading-btn {
         padding: 2rem 0rem;
     } */
     /* ================#28 ==============  */
+    
+    #header {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    #header .container {
+        width: 90%;
+        height: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #header .container .card {
+        padding: 2rem;
+        margin: 1rem;
+        border-radius: 0.3rem;
+        text-align: center;
+    }
+    
+    #header .container #card-1 {
+        background-color: rgba(128, 128, 128, 0.306);
+        display: block;
+        z-index: -1;
+    }
+    
+    #header .container #card-2 {
+        background-color: rgba(126, 234, 133, 0.306);
+        position: relative;
+        left: -2500px;
+        transition: all 0.2s;
+        /* display: none; */
+    }
+    
+    #buttun i:hover #card-2 {
+        left: 0px;
+        z-index: 1;
+    }
+    
+    #buttun {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    #buttun #back {
+        margin: 0rem 1rem;
+    }
+    
+    #buttun #next {
+        margin: 0rem 1rem;
+    }
+    
+    #buttun i {
+        font-size: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
