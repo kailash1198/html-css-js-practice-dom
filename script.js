@@ -563,3 +563,19 @@ function showCard() {
 */
 
 // ====PRACTICE CODE : #27 =======
+/*
+let myNavBar = document.getElementById('navbar');
+let contentBox = document.getElementById('content');
+
+let oldScrollY = window.scrollY;
+document.addEventListener('scroll', () => {
+    if (oldScrollY < window.scrollY) {
+        myNavBar.style.padding = "1rem";
+    } else {
+        myNavBar.style.padding = "2rem";
+    }
+
+})
+*/
+
+// ====PRACTICE CODE : #28 =======

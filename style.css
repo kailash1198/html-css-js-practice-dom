@@ -1437,3 +1437,35 @@ header #loading-btn {
         z-index: 100;
     } */
     /* ================#27 ==============  */
+    /*     
+    #header {
+        width: 100%;
+    }
+    
+    #header .container {
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    #header .container #navbar {
+        width: 100%;
+        padding: 1rem 0rem;
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        color: white;
+        transition: all 0.5s;
+        position: fixed;
+        overflow: hidden;
+    }
+    
+    #header .container #content {
+        width: 80%;
+        margin: auto;
+        padding: 4rem 0rem;
+    }
+    
+    #header .container #content p {
+        padding: 2rem 0rem;
+    } */
+    /* ================#28 ==============  */
