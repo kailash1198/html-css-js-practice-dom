@@ -609,3 +609,14 @@ document.addEventListener('scroll', () => {
 //         myCard2.style.display = 'none';
 //     }
 // })
+
+// ====PRACTICE CODE : #29 =======
+let myCard1 = document.getElementById('my-card1');
+let myCard2 = document.getElementById('my-card2');
+let myCard3 = document.getElementById('my-card3');
+
+document.addEventListener('scroll', () => {
+    myCard1.classList.add('anime-card');
+    myCard2.classList.add('anime-card');
+    myCard3.classList.add('anime-card');
+})

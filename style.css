@@ -1,21 +1,25 @@
-    /* ========= css reset ======== */
-    
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
-    }
-    
-    li {
-        list-style-type: none;
-    }
-    /* body {
+/* ========= css reset ======== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* body {
     width: 100%;
     height: 100vh;
 } */
-    /* .card {
+
+
+/* .card {
     width: 50%;
     background-color: rgba(128, 128, 128, 0.152);
     padding: 3rem 2rem;
@@ -34,8 +38,12 @@
     display: none;
     transition: all 0.9s;
 } */
-    /* ==============#03 ==========*/
-    /* 
+
+
+/* ==============#03 ==========*/
+
+
+/* 
 #card {
     width: 40%;
     padding: 2rem;
@@ -68,9 +76,15 @@
     color: orangered;
     transition: all ease-in-out 0.5s;
 } */
-    /* #04 ==============  */
-    /* -- loading -------  */
-    /* 
+
+
+/* #04 ==============  */
+
+
+/* -- loading -------  */
+
+
+/* 
 .Container {
     display: flex;
     justify-content: center;
@@ -129,8 +143,12 @@
         transform: translateX(10px);
     }
 } */
-    /* -----card content----  */
-    /* 
+
+
+/* -----card content----  */
+
+
+/* 
 #card {
     width: 90%;
     padding: 2rem;
@@ -146,8 +164,12 @@
     margin: auto;
     margin: 1rem auto;
 } */
-    /* ================#05 ==============  */
-    /* 
+
+
+/* ================#05 ==============  */
+
+
+/* 
 .container {
     width: 100%;
     height: 100vh;
@@ -232,8 +254,12 @@
     font-size: 0.7rem;
     border-radius: 0.4rem;
 } */
-    /* ================#06 ==============  */
-    /* 
+
+
+/* ================#06 ==============  */
+
+
+/* 
 .container {
     width: 100%;
     height: 100vh;
@@ -296,8 +322,12 @@
     border-radius: 0.3rem;
     cursor: pointer;
 } */
-    /* ================#07 ==============  */
-    /* 
+
+
+/* ================#07 ==============  */
+
+
+/* 
 header {
     width: 100%;
     height: 100vh;
@@ -340,8 +370,12 @@ header .container .line {
     margin: 0.2rem 0rem;
 }
  */
-    /* ---- .content ---  */
-    /* 
+
+
+/* ---- .content ---  */
+
+
+/* 
 
 .content {
     width: 20%;
@@ -377,8 +411,12 @@ header .container .line {
     cursor: pointer;
 }
  */
-    /* ================#08 ==============  */
-    /* 
+
+
+/* ================#08 ==============  */
+
+
+/* 
 header {
     width: 100%;
     height: 100vh;
@@ -437,8 +475,12 @@ header .container .content-area .industry-card .content {
 header .container .content-area .industry-card .content img {
     width: 100%;
 } */
-    /* ================#09 ==============  */
-    /* 
+
+
+/* ================#09 ==============  */
+
+
+/* 
 header {
     width: 100%;
     height: 100vh;
@@ -520,8 +562,12 @@ header .container .right #about-content p {
 header .container .right h1 {
     text-align: center;
 } */
-    /* ================#10 ==============  */
-    /* 
+
+
+/* ================#10 ==============  */
+
+
+/* 
 html {
     scroll-behavior: smooth;
 }
@@ -557,8 +603,12 @@ header .container .card .content p {
     line-height: 1.7;
     font-size: 0.8rem;
 } */
-    /* ================#11 ==============  */
-    /* header {
+
+
+/* ================#11 ==============  */
+
+
+/* header {
     width: 100vw;
     height: 120vh;
     background-color: rgba(128, 128, 128, 0.182);
@@ -757,8 +807,12 @@ header .container .login-sec .logIn-content .sign-icon .facebook span {
     position: relative;
     top: 0px;
 } */
-    /* ================#12 ==============  */
-    /* header {
+
+
+/* ================#12 ==============  */
+
+
+/* header {
     width: 100;
     background-color: rgba(128, 128, 128, 0.245);
     box-shadow: 1px 2px 20px rgba(128, 128, 128, 0.15);
@@ -831,8 +885,12 @@ header .container #nav .menu li i {
     padding: 0.5rem 0rem;
     color: black;
 } */
-    /* ================#13 ==============  */
-    /* header {
+
+
+/* ================#13 ==============  */
+
+
+/* header {
     width: 100vw;
     height: 100vh;
 }
@@ -862,8 +920,12 @@ header .container .card .content {
     background-color: rgba(255, 255, 255, 0.606);
     padding: 5rem;
 } */
-    /* ================#14 ==============  */
-    /* header {
+
+
+/* ================#14 ==============  */
+
+
+/* header {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -915,8 +977,12 @@ header .container .action-btn button {
     outline: none;
     font-size: 2rem;
 } */
-    /* ================#15 ==============  */
-    /* header {
+
+
+/* ================#15 ==============  */
+
+
+/* header {
     width: 100%;
 }
 
@@ -943,8 +1009,12 @@ header .container #card {
 header .container #card li {
     padding: 0.5rem 0rem;
 } */
-    /* ================#16 ==============  */
-    /* header {
+
+
+/* ================#16 ==============  */
+
+
+/* header {
     width: 100%;
     height: 100vh;
     display: flex;
@@ -1014,8 +1084,12 @@ header .container #pop-card .btn button {
     cursor: pointer;
     box-shadow: 1px 3px 30px white;
 } */
-    /* ================#19 ==============  */
-    /* 
+
+
+/* ================#19 ==============  */
+
+
+/* 
 header {
     width: 100%;
 }
@@ -1065,8 +1139,12 @@ header .container #my-card6 {
 header .container #my-card7 {
     background-color: rgba(208, 73, 170, 0.147);
 } */
-    /* ================#20 ==============  */
-    /* header {
+
+
+/* ================#20 ==============  */
+
+
+/* header {
     width: 100vw;
     height: 100vh;
     background-color: rgba(186, 176, 176, 0.713);
@@ -1089,8 +1167,12 @@ header .container::before {
     opacity: 0;
     position: absolute;
 } */
-    /* ================#21 ==============  */
-    /* header {
+
+
+/* ================#21 ==============  */
+
+
+/* header {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -1152,8 +1234,12 @@ header .container .btn button:hover {
 .bold {
     font-weight: bold;
 } */
-    /* ================#22 ==============  */
-    /* #btn {
+
+
+/* ================#22 ==============  */
+
+
+/* #btn {
     position: absolute;
     bottom: 5%;
     left: 50%;
@@ -1195,8 +1281,12 @@ header .container {
     background-size: cover;
     object-fit: cover;
 } */
-    /* ================#23 ==============  */
-    /* header {
+
+
+/* ================#23 ==============  */
+
+
+/* header {
     width: 100%;
     height: 100vh;
 }
@@ -1243,8 +1333,12 @@ header .container .card #comment-sec button {
     border-radius: 0.1rem;
     cursor: pointer;
 } */
-    /* ================#24 ==============  */
-    /* 
+
+
+/* ================#24 ==============  */
+
+
+/* 
 header {
     width: 100vw;
     height: 100vh;
@@ -1316,8 +1410,12 @@ header .container .task-list li {
 }
 
 */
-    /* ================#25 ==============  */
-    /* 
+
+
+/* ================#25 ==============  */
+
+
+/* 
 header {
     width: 100%;
     padding: 5rem 0rem;
@@ -1395,8 +1493,12 @@ header #loading-btn {
     margin: auto;
     display: flex;
 } */
-    /* ================#26 ==============  */
-    /*     
+
+
+/* ================#26 ==============  */
+
+
+/*     
     #header {
         width: 100%;
         height: 100vh;
@@ -1436,8 +1538,12 @@ header #loading-btn {
         height: 100%;
         z-index: 100;
     } */
-    /* ================#27 ==============  */
-    /*     
+
+
+/* ================#27 ==============  */
+
+
+/*     
     #header {
         width: 100%;
     }
@@ -1468,8 +1574,12 @@ header #loading-btn {
     #header .container #content p {
         padding: 2rem 0rem;
     } */
-    /* ================#28 ==============  */
-    
+
+
+/* ================#28 ==============  */
+
+
+/*     
     #header {
         width: 100%;
         height: 100vh;
@@ -1503,31 +1613,80 @@ header #loading-btn {
         left: -2500px;
         transition: all 0.2s;
         /* display: none; */
+
+
+/* }
+#buttun i:hover #card-2 {
+    left: 0px;
+    z-index: 1;
+}
+#buttun {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#buttun #back {
+    margin: 0rem 1rem;
+}
+#buttun #next {
+    margin: 0rem 1rem;
+}
+#buttun i {
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+} */
+
+
+/* ================#29 ==============  */
+
+header {
+    width: 100%;
+}
+
+header .container {
+    width: 90%;
+    margin: auto;
+}
+
+header .container #card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .container #card-container-2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .container #card-container .card {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.244);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+
+header .container #card-container-2 .card {
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.244);
+    padding: 2rem;
+    border-radius: 1rem;
+    margin: 1rem;
+    /* display: none; */
+    opacity: 0;
+}
+
+.anime-card {
+    animation: anime 2s ease 1s 1 forwards;
+}
+
+@keyframes anime {
+    100% {
+        opacity: 1;
     }
-    
-    #buttun i:hover #card-2 {
-        left: 0px;
-        z-index: 1;
-    }
-    
-    #buttun {
-        width: 80%;
-        margin: auto;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-    }
-    
-    #buttun #back {
-        margin: 0rem 1rem;
-    }
-    
-    #buttun #next {
-        margin: 0rem 1rem;
-    }
-    
-    #buttun i {
-        font-size: 2rem;
-        font-weight: bold;
-        cursor: pointer;
-    }
+}
