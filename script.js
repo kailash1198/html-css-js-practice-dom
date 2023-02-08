@@ -611,12 +611,30 @@ document.addEventListener('scroll', () => {
 // })
 
 // ====PRACTICE CODE : #29 =======
-let myCard1 = document.getElementById('my-card1');
-let myCard2 = document.getElementById('my-card2');
-let myCard3 = document.getElementById('my-card3');
+// let myCard1 = document.getElementById('my-card1');
+// let myCard2 = document.getElementById('my-card2');
+// let myCard3 = document.getElementById('my-card3');
 
-document.addEventListener('scroll', () => {
-    myCard1.classList.add('anime-card');
-    myCard2.classList.add('anime-card');
-    myCard3.classList.add('anime-card');
-})
+// document.addEventListener('scroll', () => {
+//     myCard1.classList.add('anime-card');
+//     myCard2.classList.add('anime-card');
+//     myCard3.classList.add('anime-card');
+// })
+
+// ====PRACTICE CODE : #30 =======
+let myCard1 = document.getElementById('card-1');
+let myCard2 = document.getElementById('card-2');
+let myCard3 = document.getElementById('card-3');
+
+myCard2.style.display = 'none';
+myCard3.style.display = 'none';
+
+document.addEventListener('load', func)
+
+setTimeout(func, 5000)
+
+function func() {
+    myCard2.style.display = 'block';
+    myCard1.style.display = 'none';
+    myCard2.style.transition = 'all 0.5s';
+}
