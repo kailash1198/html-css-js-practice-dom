@@ -622,19 +622,35 @@ document.addEventListener('scroll', () => {
 // })
 
 // ====PRACTICE CODE : #30 =======
-let myCard1 = document.getElementById('card-1');
-let myCard2 = document.getElementById('card-2');
-let myCard3 = document.getElementById('card-3');
+// let myCard1 = document.getElementById('card-1');
+// let myCard2 = document.getElementById('card-2');
+// let myCard3 = document.getElementById('card-3');
 
-myCard2.style.display = 'none';
-myCard3.style.display = 'none';
+// myCard2.style.display = 'none';
+// myCard3.style.display = 'none';
 
-document.addEventListener('load', func)
+// document.addEventListener('load', func)
 
-setTimeout(func, 5000)
+// setTimeout(func, 5000)
 
-function func() {
-    myCard2.style.display = 'block';
-    myCard1.style.display = 'none';
-    myCard2.style.transition = 'all 0.5s';
-}
+// function func() {
+//     myCard2.style.display = 'block';
+//     myCard1.style.display = 'none';
+//     myCard2.style.transition = 'all 0.5s';
+// }
+
+// ====PRACTICE CODE : #31 =======
+let userInput = document.getElementById('user-input');
+let userRate = document.getElementById('user-rate');
+let readBtn = document.getElementById('my-btn');
+
+readBtn.addEventListener('click', function() {
+    console.log(`Total amounts is that : ${userInput.value* userRate.value}`);
+
+    var totalAmount = userInput.value * userRate.value;
+    if (totalAmount == 100) {
+        console.log('You have to pay Immdiate');
+    } else {
+        console.log("You can pay Later Bro");
+    }
+})
