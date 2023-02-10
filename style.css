@@ -1760,11 +1760,45 @@ button {
 
 /* ================#31 ==============  */
 
-header {
+/* header {
     width: 100vw;
 }
 
 .container {
     width: 90%;
     margin: auto;
+} */
+
+/* ================#32 ==============  */
+
+/* header{
+    width: 100vw;
+    height: 100vh;
 }
+
+header .container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .log-in{
+    padding: 2rem;
+    background-color: rgba(128, 128, 128, 0.226);
+    border-radius: 0.2rem;
+}
+
+header .container .log-in input{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0rem;
+}
+
+header .container .log-in button{
+    width: 100%;
+    padding: 1rem;
+    cursor: pointer;
+} */

@@ -640,17 +640,29 @@ document.addEventListener('scroll', () => {
 // }
 
 // ====PRACTICE CODE : #31 =======
-let userInput = document.getElementById('user-input');
-let userRate = document.getElementById('user-rate');
-let readBtn = document.getElementById('my-btn');
+// let userInput = document.getElementById('user-input');
+// let userRate = document.getElementById('user-rate');
+// let readBtn = document.getElementById('my-btn');
 
-readBtn.addEventListener('click', function() {
-    console.log(`Total amounts is that : ${userInput.value* userRate.value}`);
+// readBtn.addEventListener('click', function() {
+//     console.log(`Total amounts is that : ${userInput.value* userRate.value}`);
 
-    var totalAmount = userInput.value * userRate.value;
-    if (totalAmount == 100) {
-        console.log('You have to pay Immdiate');
-    } else {
-        console.log("You can pay Later Bro");
-    }
-})
+//     var totalAmount = userInput.value * userRate.value;
+//     if (totalAmount == 100) {
+//         console.log('You have to pay Immdiate');
+//     } else {
+//         console.log("You can pay Later Bro");
+//     }
+// })
+
+// ====PRACTICE CODE : #32 =======
+// let userName = document.getElementById('user-name');
+// let password = document.getElementById('user-password');
+// let logBtn = document.getElementById('my-btn');
+
+// logBtn.addEventListener('click', function(){
+//     console.log(`The Name is that: ${userName.value}`);
+//     console.log(`The Name is that: ${password.value}`);
+// })
+
+
