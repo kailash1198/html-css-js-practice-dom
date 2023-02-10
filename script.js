@@ -18,10 +18,6 @@ function decremNumFunc() {
 
 */
 
-
-
-
-
 // ====PRACTICE CODE : #2 ========
 /*
 let myTitle = document.getElementById('title');
@@ -36,14 +32,6 @@ function hideContent() {
 }
 */
 
-
-
-
-
-
-
-
-
 // ====PRACTICE CODE : #3 ========
 /*
 let downBtn = document.getElementById('downloadBtn');
@@ -53,16 +41,6 @@ function downloadResume() {
     downBtn = window.open('asset/css.pdf');
 }
 */
-
-
-
-
-
-
-
-
-
-
 
 // ====PRACTICE CODE : #4 ========
 /*
@@ -77,21 +55,6 @@ setTimeout(() => {
     disNone.style.display = 'block';
 }, 4000);
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // ====PRACTICE CODE : #5 ========
 /*
@@ -128,22 +91,6 @@ function logInSucess() {
     }
 }
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // ====PRACTICE CODE : #6 ========
 /*
@@ -197,7 +144,6 @@ function showIndustryFunc() {
     }
 }
 */
-
 
 // ====PRACTICE CODE : #9 =======
 /*
@@ -265,7 +211,6 @@ function hideLogInForm() {
 }
 */
 
-
 // ====PRACTICE CODE : #12 =======
 /*
 let myMenu = document.getElementById('menu-bar');
@@ -293,8 +238,6 @@ function showMenu() {
 }
 */
 
-
-
 // ====PRACTICE CODE : #13 =======
 
 /*
@@ -312,7 +255,6 @@ function showContentEffect() {
 }
 */
 
-
 // ====PRACTICE CODE : #14 =======
 /*
 let backBtn = document.getElementById('back');
@@ -329,8 +271,6 @@ nextBtn.onclick = function() {
     scrollContainer.scrollLeft -= 500;
 }
 */
-
-
 
 // ====PRACTICE CODE : #15 =======
 
@@ -372,8 +312,6 @@ yesPopBtn.onclick = function() {
     popBox.style.display = 'none';
 }
 */
-
-
 
 // ====PRACTICE CODE : #17 =======
 /*
@@ -482,7 +420,6 @@ if (myCard.classList.contains('slider1')) {
     });
 }
 */
-
 
 // ====PRACTICE CODE : #23 =======
 /*
@@ -597,7 +534,6 @@ document.addEventListener('scroll', () => {
 
 // })
 
-
 // nextBtn.addEventListener('click', () => {
 //     if (myCard3.style.display == 'block' && myCard1.style.display == 'none') {
 //         myCard2.style.display = 'block';
@@ -665,4 +601,15 @@ document.addEventListener('scroll', () => {
 //     console.log(`The Name is that: ${password.value}`);
 // })
 
+// ====PRACTICE CODE : #33 (scroll up-down navbar section drop-up)=======
 
+let myNavbar = document.getElementById("navbar");
+
+document.addEventListener("scroll", function () {
+  if (window.scrollY == true) {
+    if () {
+      myNavbar.style.position = "fixed";
+      myNavbar.style.zIndex = "1";
+    }
+  }
+});

@@ -1802,3 +1802,43 @@ header .container .log-in button{
     padding: 1rem;
     cursor: pointer;
 } */
+
+
+/* ====PRACTICE CODE : #33 (scroll up-down navbar section drop-up)======= */
+
+header{
+    width: 100vw;
+    height: auto;
+}
+
+header .container{
+    width: 90%;
+    margin: auto;
+    padding: 2rem 0rem;
+}
+
+header .container #navbar{
+    width: 100%;
+    background-color: rgb(255, 68, 0);
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+header .container #navbar ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header .container #hero{
+    width: 100%;
+    padding: 3rem 0rem;
+}
+
+header .container #hero .content{
+    width: 100%;
+}
+header .container #hero .content p{
+    width: 100%;
+    padding: 1rem 0rem;
+}
