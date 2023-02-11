@@ -1864,6 +1864,17 @@ header .container .box{
     display: flex;
     justify-content: center;
     margin: 1rem;
+ 
+}
+header .container .box1{
+    transition: all 0.5s;
+    position: relative;
+    left: 0px;  
+}
+header .container .box2{
+    transition: all 0.5s;
+    position: relative;
+    right: 0px;
 }
 
 header .container .box .card{
