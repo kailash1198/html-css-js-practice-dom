@@ -1806,7 +1806,7 @@ header .container .log-in button{
 
 /* ====PRACTICE CODE : #33 (scroll up-down navbar section drop-up)======= */
 
-header{
+/* header{
     width: 100vw;
     height: auto;
 }
@@ -1841,4 +1841,34 @@ header .container #hero .content{
 header .container #hero .content p{
     width: 100%;
     padding: 1rem 0rem;
+} */
+
+/* ====PRACTICE CODE : #34 (when scroll up-down then auto card scroll left to right and right to left)======= */
+
+header{
+    width: 100vw;
+    height: auto;
+}
+
+header .container{
+    width: 90%;
+    margin: auto;
+}
+
+header .container .card-container{
+    width: 100%;
+}
+
+header .container .box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+header .container .box .card{
+    background-color: rgba(255, 166, 0, 0.466);
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
 }

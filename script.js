@@ -603,13 +603,25 @@ document.addEventListener('scroll', () => {
 
 // ====PRACTICE CODE : #33 (scroll up-down navbar section drop-up)=======
 
-let myNavbar = document.getElementById("navbar");
+// let myNavbar = document.getElementById("navbar");
 
-document.addEventListener("scroll", function () {
-  if (window.scrollY == true) {
-    if () {
-      myNavbar.style.position = "fixed";
-      myNavbar.style.zIndex = "1";
+// document.addEventListener("scroll", function () {
+//   if (window.scrollY == true) {
+//     if () {
+//       myNavbar.style.position = "fixed";
+//       myNavbar.style.zIndex = "1";
+//     }
+//   }
+// });
+
+
+// ====PRACTICE CODE : #34 (when scroll up-down then auto card scroll left to right and right to left)=======
+
+let myCardBoxOne = document.getElementById('card-box-1')
+let myCardBoxTwo = document.getElementById('card-box-2');
+
+window.addEventListener('scroll', function(){
+    if(this.window.screenY == true){
+        myCardBoxOne.style.overflow = 'scroll';
     }
-  }
-});
+})
