@@ -617,19 +617,22 @@ document.addEventListener('scroll', () => {
 
 // ====PRACTICE CODE : #34 (when scroll up-down then auto card scroll left to right and right to left)=======
 
-let myCardBoxOne = document.getElementById('card-box-1')
-let myCardBoxTwo = document.getElementById('card-box-2');
+// let myCardBoxOne = document.getElementById('card-box-1')
+// let myCardBoxTwo = document.getElementById('card-box-2');
 
-window.addEventListener('scroll', function(){
-    if(window.scrollY != false){
-        myCardBoxOne.style.position = 'relative';
-        myCardBoxOne.style.left = '200px';
+// window.addEventListener('scroll', function(){
+//     if(window.scrollY != false){
+//         myCardBoxOne.style.position = 'relative';
+//         myCardBoxOne.style.left = '200px';
        
 
-        myCardBoxTwo.style.position = 'relative';
-        myCardBoxTwo.style.right = '200px';
-    }else{
-        myCardBoxOne.style.left = '0px';
-        myCardBoxTwo.style.right = '0px';
-    }
-})
+//         myCardBoxTwo.style.position = 'relative';
+//         myCardBoxTwo.style.right = '200px';
+//     }else{
+//         myCardBoxOne.style.left = '0px';
+//         myCardBoxTwo.style.right = '0px';
+//     }
+// })
+
+
+// ====PRACTICE CODE : #35 ()=======

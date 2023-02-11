@@ -1844,7 +1844,7 @@ header .container #hero .content p{
 } */
 
 /* ====PRACTICE CODE : #34 (when scroll up-down then auto card scroll left to right and right to left)======= */
-
+/* 
 header{
     width: 100vw;
     height: auto;
@@ -1882,4 +1882,6 @@ header .container .box .card{
     margin: 1rem;
     padding: 1.5rem;
     border-radius: 0.5rem;
-}
+} */
+
+/* ====PRACTICE CODE : #35 ()======= */
