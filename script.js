@@ -614,7 +614,6 @@ document.addEventListener('scroll', () => {
 //   }
 // });
 
-
 // ====PRACTICE CODE : #34 (when scroll up-down then auto card scroll left to right and right to left)=======
 
 // let myCardBoxOne = document.getElementById('card-box-1')
@@ -624,7 +623,6 @@ document.addEventListener('scroll', () => {
 //     if(window.scrollY != false){
 //         myCardBoxOne.style.position = 'relative';
 //         myCardBoxOne.style.left = '200px';
-       
 
 //         myCardBoxTwo.style.position = 'relative';
 //         myCardBoxTwo.style.right = '200px';
@@ -634,5 +632,21 @@ document.addEventListener('scroll', () => {
 //     }
 // })
 
-
 // ====PRACTICE CODE : #35 ()=======
+
+// let cartBtn = document.getElementById("my-cart-btn");
+// let itemPrice = document.getElementById("product-price").innerHTML;
+
+// let FinalRate = document.getElementById("rate");
+// let gstTax = document.getElementById("tax");
+// let totalPrice = document.getElementById("total");
+
+// let cardPopup = document.getElementById('cart');
+// cardPopup.style.display = 'none';
+
+// cartBtn.addEventListener("click", function () {
+//   FinalRate.innerHTML = itemPrice;
+//   gstTax.innerHTML = Number(itemPrice) + 550;
+//   totalPrice.innerHTML = (gstTax.innerHTML);
+//   cardPopup.style.display = 'block';
+});
