@@ -649,4 +649,17 @@ document.addEventListener('scroll', () => {
 //   gstTax.innerHTML = Number(itemPrice) + 550;
 //   totalPrice.innerHTML = (gstTax.innerHTML);
 //   cardPopup.style.display = 'block';
-});
+// });
+
+// ====PRACTICE CODE : #36 (Dialog box)=======
+// let myBox = document.getElementById('box');
+// let cancelBtn = document.getElementById('cancel');
+// myBox.style.display = 'none';
+
+// setTimeout(function(){
+//     myBox.style.display = 'block';
+// }, 5000)
+
+// cancelBtn.addEventListener('click', function(){
+//     myBox.style.display = 'none';
+// })
