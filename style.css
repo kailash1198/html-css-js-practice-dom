@@ -1973,3 +1973,65 @@ header .container .item .item-description button{
     display: flex;
     justify-content: center;
 } */
+
+/* ====PRACTICE CODE : #36 (Dialog box fetaures)======= */
+/* header{
+    width: 100vw;
+    height: 100vh;
+}
+
+header .container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .card{
+    padding: 2rem;
+    background-color: rgba(128, 128, 128, 0.103);
+    margin: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+#box{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+}
+
+#box .container{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(255, 166, 0);
+    padding: 8rem 4rem;
+    border-radius: 0.3rem;
+    position: relative;
+    top: 100px;
+}
+
+#box .container h1 {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+
+#box .container #cancel{
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: all 0.5s;
+    border-radius: 0.2rem;
+}
+
+#box .container #cancel:hover{
+    background-color: black;
+    color: white;
+} */
