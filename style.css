@@ -2035,3 +2035,113 @@ header .container .card{
     background-color: black;
     color: white;
 } */
+
+/* ====PRACTICE CODE : #36 (Course purchase demo)======= */
+/* 
+header{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+header .container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .item-card{
+    background-color: rgba(128, 128, 128, 0.192);
+    padding: 2.5rem;
+    margin: 1rem;
+    border-radius: 0.3rem;
+}
+
+header .container .item-card h1{
+    padding: 0.5rem 0rem;
+}
+
+header .container .item-card p{
+    padding: 0.5rem 0rem;
+}
+
+header .container .item-card button{
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+header .container .item-card button:hover{
+    background-color: black;
+    color: white;
+} */
+
+/* --- cart page ----  */
+
+/* #cart{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    z-index: 10;
+}
+
+#cart .container{
+    width: 80%;
+    margin: auto;
+    padding: 4rem 2rem;
+    background-color: rgb(236, 227, 215);
+}
+
+#cart .container #card{
+    width: 40%;
+    margin: auto;
+    padding: 1rem;
+}
+#cart .container #card .title{
+    padding: 1rem 0rem;
+}
+#cart .container h1{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+#cart .container #card .course-rate{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart .container #card .line{
+    border-bottom: 1px solid black;
+    margin: 1.5rem 0rem;
+}
+
+#cart .container #card .total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart .container .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#cart .container .btn button{
+    padding: 1rem 1.5rem;
+    border: none;
+    margin: 0rem 1rem;
+    cursor: pointer;
+    background-color: white;
+}
+ */
