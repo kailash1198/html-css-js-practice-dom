@@ -663,3 +663,65 @@ document.addEventListener('scroll', () => {
 // cancelBtn.addEventListener('click', function(){
 //     myBox.style.display = 'none';
 // })
+
+// ====PRACTICE CODE : #37 (course purchase demo)=======
+// let displayCart = document.getElementById("cart");
+// displayCart.style.display = "none";
+
+// let cancelBtn = document.getElementById('cancel-btn');
+// let paymentBtn = document.getElementById('payment-btn');
+
+// let cartBtn = document.getElementsByClassName("add-cart");
+// let myCourse1 = document.getElementById("course-name-1");
+// let myCourse2 = document.getElementById("course-name-2");
+
+// let courseGet = document.getElementById("course-title");
+// let subTotalPrice = document.getElementById("sub-total");
+// // --- course- 1 ---
+// let courseOnePrice = document.getElementById("course-price-1");
+// let courseOneTax = document.getElementById("tax-1");
+// let courseOneDelhivery = document.getElementById("delhivery-1");
+
+// --- course- 2 ---
+// let courseTwoPrice = document.getElementById("course-price-2");
+// let courseTwoTax = document.getElementById("tax-1");
+// let courseTwoDelhivery = document.getElementById("delhivery-1");
+
+// let finalPrice = document.getElementById("price");
+// -- btn-1 ---
+// cartBtn[0].addEventListener("click", function () {
+//   displayCart.style.display = "block";
+//   let detailsAbout = myCourse1.innerHTML;
+//   courseGet.innerHTML = detailsAbout;
+//   finalPrice.innerHTML = Number(courseOnePrice.innerHTML);
+
+//   subTotalPrice.innerHTML =
+//     Number(courseOnePrice.innerHTML) +
+//     Number(courseOneTax.innerHTML) +
+//     Number(courseOneDelhivery.innerHTML);    
+// });
+
+// -- btn-2 ---
+// cartBtn[1].addEventListener("click", function () {
+//   displayCart.style.display = "block";
+//   let detailsAbout = myCourse2.innerHTML;
+//   courseGet.innerHTML = detailsAbout;
+
+//   finalPrice.innerHTML = Number(courseTwoPrice.innerHTML);
+
+//   subTotalPrice.innerHTML =
+//     Number(courseTwoPrice.innerHTML) +
+//     Number(courseTwoTax.innerHTML) +
+//     Number(courseTwoDelhivery.innerHTML);
+// });
+
+
+// cancelBtn.addEventListener('click', function(){
+//     alert("Are you sure to Cancel");
+//     displayCart.style.display = "none";
+// })
+
+
+// paymentBtn.addEventListener('click', function(){
+//     window.open('payment.html');
+// })
