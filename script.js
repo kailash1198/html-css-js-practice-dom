@@ -736,3 +736,23 @@ document.addEventListener('scroll', () => {
 //     myCardOne.classList.add('animeOne');
 //     myCardTwo.classList.add('animeTwo');
 // })
+
+
+ <!-- ====PRACTICE CODE : #39(Card load when user reach location)=======  --> */
+// let myCardOne = document.getElementById("card-1");
+// let myCardTwo = document.getElementById("card-2");
+// let myCardThree = document.getElementById("card-3");
+// let myCardFour = document.getElementById("card-4");
+
+// let secondContainer = document.getElementById("second");
+
+// window.addEventListener("load", function () {
+//   myCardOne.classList.add("animeOne");
+//   myCardTwo.classList.add("animeTwo");
+// });
+// document.addEventListener("scroll", function () {
+//   if (window.screenTop<100) {
+//     myCardThree.classList.add("animeThree");
+//     myCardFour.classList.add("animeFour");
+//   }
+// });
