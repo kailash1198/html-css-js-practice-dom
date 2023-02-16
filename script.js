@@ -725,3 +725,14 @@ document.addEventListener('scroll', () => {
 // paymentBtn.addEventListener('click', function(){
 //     window.open('payment.html');
 // })
+
+
+
+ <!-- ====PRACTICE CODE : #38(Card loading animated when page load in browser)=======  --> */
+// let myCardOne = document.getElementById('card-1');
+// let myCardTwo = document.getElementById('card-2');
+
+// window.addEventListener('load', function(){
+//     myCardOne.classList.add('animeOne');
+//     myCardTwo.classList.add('animeTwo');
+// })
