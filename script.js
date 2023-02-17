@@ -756,3 +756,37 @@ document.addEventListener('scroll', () => {
 //     myCardFour.classList.add("animeFour");
 //   }
 // });
+
+
+ <!-- ====PRACTICE CODE : #40(Humburger menu)=======  --> */
+// let myBtn = document.getElementById("my-btn");
+// let myNav = document.getElementById("nav");
+
+// let cancelBtn = document.getElementById("cancel");
+
+// myNav.style.display = "none";
+
+
+
+// myBtn.addEventListener("click", function () {
+//   if (myNav.style.display == "none") {
+//     myNav.classList.add("anime");
+//     myNav.style.display = "flex";
+//   }
+// });
+
+
+
+// cancelBtn.addEventListener("click", function () {
+//     if(myNav.style.display == 'flex'){
+//         myNav.classList.remove('anime');
+//         myNav.classList.add("animeStop");
+        
+//     }
+    
+// });
+
+// myNav.classList.remove('animeStop');
+// myNav.classList.add('anime');
+
+
