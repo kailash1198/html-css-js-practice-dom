@@ -649,4 +649,144 @@ document.addEventListener('scroll', () => {
 //   gstTax.innerHTML = Number(itemPrice) + 550;
 //   totalPrice.innerHTML = (gstTax.innerHTML);
 //   cardPopup.style.display = 'block';
-});
+// });
+
+// ====PRACTICE CODE : #36 (Dialog box)=======
+// let myBox = document.getElementById('box');
+// let cancelBtn = document.getElementById('cancel');
+// myBox.style.display = 'none';
+
+// setTimeout(function(){
+//     myBox.style.display = 'block';
+// }, 5000)
+
+// cancelBtn.addEventListener('click', function(){
+//     myBox.style.display = 'none';
+// })
+
+// ====PRACTICE CODE : #37 (course purchase demo)=======
+// let displayCart = document.getElementById("cart");
+// displayCart.style.display = "none";
+
+// let cancelBtn = document.getElementById('cancel-btn');
+// let paymentBtn = document.getElementById('payment-btn');
+
+// let cartBtn = document.getElementsByClassName("add-cart");
+// let myCourse1 = document.getElementById("course-name-1");
+// let myCourse2 = document.getElementById("course-name-2");
+
+// let courseGet = document.getElementById("course-title");
+// let subTotalPrice = document.getElementById("sub-total");
+// // --- course- 1 ---
+// let courseOnePrice = document.getElementById("course-price-1");
+// let courseOneTax = document.getElementById("tax-1");
+// let courseOneDelhivery = document.getElementById("delhivery-1");
+
+// --- course- 2 ---
+// let courseTwoPrice = document.getElementById("course-price-2");
+// let courseTwoTax = document.getElementById("tax-1");
+// let courseTwoDelhivery = document.getElementById("delhivery-1");
+
+// let finalPrice = document.getElementById("price");
+// -- btn-1 ---
+// cartBtn[0].addEventListener("click", function () {
+//   displayCart.style.display = "block";
+//   let detailsAbout = myCourse1.innerHTML;
+//   courseGet.innerHTML = detailsAbout;
+//   finalPrice.innerHTML = Number(courseOnePrice.innerHTML);
+
+//   subTotalPrice.innerHTML =
+//     Number(courseOnePrice.innerHTML) +
+//     Number(courseOneTax.innerHTML) +
+//     Number(courseOneDelhivery.innerHTML);    
+// });
+
+// -- btn-2 ---
+// cartBtn[1].addEventListener("click", function () {
+//   displayCart.style.display = "block";
+//   let detailsAbout = myCourse2.innerHTML;
+//   courseGet.innerHTML = detailsAbout;
+
+//   finalPrice.innerHTML = Number(courseTwoPrice.innerHTML);
+
+//   subTotalPrice.innerHTML =
+//     Number(courseTwoPrice.innerHTML) +
+//     Number(courseTwoTax.innerHTML) +
+//     Number(courseTwoDelhivery.innerHTML);
+// });
+
+
+// cancelBtn.addEventListener('click', function(){
+//     alert("Are you sure to Cancel");
+//     displayCart.style.display = "none";
+// })
+
+
+// paymentBtn.addEventListener('click', function(){
+//     window.open('payment.html');
+// })
+
+
+
+ <!-- ====PRACTICE CODE : #38(Card loading animated when page load in browser)=======  --> */
+// let myCardOne = document.getElementById('card-1');
+// let myCardTwo = document.getElementById('card-2');
+
+// window.addEventListener('load', function(){
+//     myCardOne.classList.add('animeOne');
+//     myCardTwo.classList.add('animeTwo');
+// })
+
+
+ <!-- ====PRACTICE CODE : #39(Card load when user reach location)=======  --> */
+// let myCardOne = document.getElementById("card-1");
+// let myCardTwo = document.getElementById("card-2");
+// let myCardThree = document.getElementById("card-3");
+// let myCardFour = document.getElementById("card-4");
+
+// let secondContainer = document.getElementById("second");
+
+// window.addEventListener("load", function () {
+//   myCardOne.classList.add("animeOne");
+//   myCardTwo.classList.add("animeTwo");
+// });
+// document.addEventListener("scroll", function () {
+//   if (window.screenTop<100) {
+//     myCardThree.classList.add("animeThree");
+//     myCardFour.classList.add("animeFour");
+//   }
+// });
+
+
+ <!-- ====PRACTICE CODE : #40(Humburger menu)=======  --> */
+// let myBtn = document.getElementById("my-btn");
+// let myNav = document.getElementById("nav");
+
+// let cancelBtn = document.getElementById("cancel");
+
+// myNav.style.display = "none";
+
+
+
+// myBtn.addEventListener("click", function () {
+//   if (myNav.style.display == "none") {
+//     myNav.classList.add("anime");
+//     myNav.style.display = "flex";
+//   }
+// });
+
+
+
+// cancelBtn.addEventListener("click", function () {
+//     if(myNav.style.display == 'flex'){
+//         myNav.classList.remove('anime');
+//         myNav.classList.add("animeStop");
+        
+//     }
+    
+// });
+
+// myNav.classList.remove('animeStop');
+// myNav.classList.add('anime');
+
+

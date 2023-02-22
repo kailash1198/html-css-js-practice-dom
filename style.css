@@ -1973,3 +1973,434 @@ header .container .item .item-description button{
     display: flex;
     justify-content: center;
 } */
+
+/* ====PRACTICE CODE : #36 (Dialog box fetaures)======= */
+/* header{
+    width: 100vw;
+    height: 100vh;
+}
+
+header .container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .card{
+    padding: 2rem;
+    background-color: rgba(128, 128, 128, 0.103);
+    margin: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+#box{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+}
+
+#box .container{
+    width: 60%;
+    margin: auto;
+    background-color: rgb(255, 166, 0);
+    padding: 8rem 4rem;
+    border-radius: 0.3rem;
+    position: relative;
+    top: 100px;
+}
+
+#box .container h1 {
+    padding: 0.5rem;
+    text-align: center;
+}
+
+
+
+#box .container #cancel{
+    padding: 1rem 1.5rem;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    transition: all 0.5s;
+    border-radius: 0.2rem;
+}
+
+#box .container #cancel:hover{
+    background-color: black;
+    color: white;
+} */
+
+/* ====PRACTICE CODE : #36 (Course purchase demo)======= */
+/* 
+header{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+header .container{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .item-card{
+    background-color: rgba(128, 128, 128, 0.192);
+    padding: 2.5rem;
+    margin: 1rem;
+    border-radius: 0.3rem;
+}
+
+header .container .item-card h1{
+    padding: 0.5rem 0rem;
+}
+
+header .container .item-card p{
+    padding: 0.5rem 0rem;
+}
+
+header .container .item-card button{
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: white;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+header .container .item-card button:hover{
+    background-color: black;
+    color: white;
+} */
+
+/* --- cart page ----  */
+
+/* #cart{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 5%;
+    z-index: 10;
+}
+
+#cart .container{
+    width: 80%;
+    margin: auto;
+    padding: 4rem 2rem;
+    background-color: rgb(236, 227, 215);
+}
+
+#cart .container #card{
+    width: 40%;
+    margin: auto;
+    padding: 1rem;
+}
+#cart .container #card .title{
+    padding: 1rem 0rem;
+}
+#cart .container h1{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+#cart .container #card .course-rate{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart .container #card .line{
+    border-bottom: 1px solid black;
+    margin: 1.5rem 0rem;
+}
+
+#cart .container #card .total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#cart .container .btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#cart .container .btn button{
+    padding: 1rem 1.5rem;
+    border: none;
+    margin: 0rem 1rem;
+    cursor: pointer;
+    background-color: white;
+}
+ */
+
+/*     <!-- ====PRACTICE CODE : #38(Card loading animated when page load in browser)=======  --> */
+/* header {
+  width: 100vw;
+  height: 100vh;
+}
+
+header .container {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 10%;
+}
+
+header .container .card {
+  width: 100%;
+  padding: 2rem;
+  background-color: rgba(128, 128, 128, 0.219);
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+.animeOne {
+  position: relative;
+  animation: cardOne 2s ease 1s infinite forwards alternate;
+  opacity: 0;
+}
+.animeTwo {
+  position: relative;
+  animation: cardTwo 2s ease 2s infinite forwards alternate;
+  opacity: 0;
+}
+
+@keyframes cardOne {
+  0% {
+    left: -5%;
+    opacity: 0;
+  }
+  100% {
+    left: 0%;
+    opacity: 1;
+    justify-self: center;
+  }
+}
+
+@keyframes cardTwo {
+    0% {
+        right: -5%;
+        opacity: 0;
+      }
+      100% {
+        right: 0%;
+        opacity: 1;
+      }
+} */
+
+/*     <!-- ====PRACTICE CODE : #39(Card load when user reach location)=======  --> */
+/* header {
+  width: 100vw;
+  height: 100vh;
+}
+
+header .container {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 10%;
+}
+
+header .container .card {
+  width: 100%;
+  padding: 2rem;
+  background-color: rgba(128, 128, 128, 0.219);
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+.animeOne {
+  position: relative;
+  animation: cardOne 2s ease 1s 1 forwards alternate;
+  opacity: 0;
+}
+.animeTwo {
+  position: relative;
+  animation: cardTwo 2s ease 2s 1 forwards alternate;
+  opacity: 0;
+}
+
+@keyframes cardOne {
+  0% {
+    left: -5%;
+    opacity: 0;
+  }
+  100% {
+    left: 0%;
+    opacity: 1;
+    justify-self: center;
+  }
+}
+
+@keyframes cardTwo {
+  0% {
+    right: -5%;
+    opacity: 0;
+  }
+  100% {
+    right: 0%;
+    opacity: 1;
+  }
+} */
+
+
+/* --- second section----  */
+/* #second{
+    width: 100%;
+    height: 100vh;
+}
+
+#second .container{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0px;
+   
+}
+
+#second .container .card{
+    width: 100%;
+    padding: 2rem;
+    background-color: rgba(128, 128, 128, 0.219);
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.animeThree {
+    position: relative;
+    animation: cardThree 2s ease 1s 1 forwards alternate;
+    opacity: 0;
+  }
+  .animeFour {
+    position: relative;
+    animation: cardFour 2s ease 2s 1 forwards alternate;
+    opacity: 0;
+  }
+
+  @keyframes cardThree {
+    0% {
+      top: -3%;
+      opacity: 0;
+    }
+    100% {
+      top: 0%;
+      opacity: 1;
+      justify-self: center;
+    }
+  }
+  
+  @keyframes cardFour {
+    0% {
+      bottom: -3%;
+      opacity: 0;
+    }
+    100% {
+      bottom: 0%;
+      opacity: 1;
+    }
+  } */
+
+
+/*     <!-- ====PRACTICE CODE : #40(Humburger menu)=======  --> */
+/* header {
+  width: 100%;
+}
+
+header .container {
+  width: 90%;
+  margin: auto;
+  padding: 1rem 0rem;
+}
+
+header .container #nav {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(228, 219, 91);
+  padding: 3rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+header .container #nav li {
+  padding: 1rem 0rem;
+  cursor: pointer;
+}
+
+header .container #menu-icon {
+  cursor: pointer;
+  z-index: 5;
+}
+
+header .container #menu-icon i {
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+#cancel {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.anime {
+  animation: myAnime 1s ease 0s 1 forwards alternate;
+}
+
+@keyframes myAnime {
+  0% {
+    top: -100%;
+  }
+  100% {
+    top: 0%;
+  }
+}
+
+.animeStop {
+  animation: myStop 1s ease 0s 1 forwards alternate;
+}
+
+@keyframes myStop {
+  0% {
+    top: 0%;
+  }
+  100% {
+    top: -100%;
+  }
+}
+
+ */
