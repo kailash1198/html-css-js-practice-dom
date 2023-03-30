@@ -1,23 +1,21 @@
 /* ========= css reset ======== */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 li {
-    list-style-type: none;
+  list-style-type: none;
 }
-
 
 /* body {
     width: 100%;
     height: 100vh;
 } */
-
 
 /* .card {
     width: 50%;
@@ -39,9 +37,7 @@ li {
     transition: all 0.9s;
 } */
 
-
 /* ==============#03 ==========*/
-
 
 /* 
 #card {
@@ -77,12 +73,9 @@ li {
     transition: all ease-in-out 0.5s;
 } */
 
-
 /* #04 ==============  */
 
-
 /* -- loading -------  */
-
 
 /* 
 .Container {
@@ -144,9 +137,7 @@ li {
     }
 } */
 
-
 /* -----card content----  */
-
 
 /* 
 #card {
@@ -165,9 +156,7 @@ li {
     margin: 1rem auto;
 } */
 
-
 /* ================#05 ==============  */
-
 
 /* 
 .container {
@@ -255,9 +244,7 @@ li {
     border-radius: 0.4rem;
 } */
 
-
 /* ================#06 ==============  */
-
 
 /* 
 .container {
@@ -323,9 +310,7 @@ li {
     cursor: pointer;
 } */
 
-
 /* ================#07 ==============  */
-
 
 /* 
 header {
@@ -371,9 +356,7 @@ header .container .line {
 }
  */
 
-
 /* ---- .content ---  */
-
 
 /* 
 
@@ -412,9 +395,7 @@ header .container .line {
 }
  */
 
-
 /* ================#08 ==============  */
-
 
 /* 
 header {
@@ -476,9 +457,7 @@ header .container .content-area .industry-card .content img {
     width: 100%;
 } */
 
-
 /* ================#09 ==============  */
-
 
 /* 
 header {
@@ -563,9 +542,7 @@ header .container .right h1 {
     text-align: center;
 } */
 
-
 /* ================#10 ==============  */
-
 
 /* 
 html {
@@ -604,9 +581,7 @@ header .container .card .content p {
     font-size: 0.8rem;
 } */
 
-
 /* ================#11 ==============  */
-
 
 /* header {
     width: 100vw;
@@ -808,9 +783,7 @@ header .container .login-sec .logIn-content .sign-icon .facebook span {
     top: 0px;
 } */
 
-
 /* ================#12 ==============  */
-
 
 /* header {
     width: 100;
@@ -886,9 +859,7 @@ header .container #nav .menu li i {
     color: black;
 } */
 
-
 /* ================#13 ==============  */
-
 
 /* header {
     width: 100vw;
@@ -921,9 +892,7 @@ header .container .card .content {
     padding: 5rem;
 } */
 
-
 /* ================#14 ==============  */
-
 
 /* header {
     width: 100vw;
@@ -978,9 +947,7 @@ header .container .action-btn button {
     font-size: 2rem;
 } */
 
-
 /* ================#15 ==============  */
-
 
 /* header {
     width: 100%;
@@ -1010,9 +977,7 @@ header .container #card li {
     padding: 0.5rem 0rem;
 } */
 
-
 /* ================#16 ==============  */
-
 
 /* header {
     width: 100%;
@@ -1085,9 +1050,7 @@ header .container #pop-card .btn button {
     box-shadow: 1px 3px 30px white;
 } */
 
-
 /* ================#19 ==============  */
-
 
 /* 
 header {
@@ -1140,9 +1103,7 @@ header .container #my-card7 {
     background-color: rgba(208, 73, 170, 0.147);
 } */
 
-
 /* ================#20 ==============  */
-
 
 /* header {
     width: 100vw;
@@ -1168,9 +1129,7 @@ header .container::before {
     position: absolute;
 } */
 
-
 /* ================#21 ==============  */
-
 
 /* header {
     width: 100vw;
@@ -1235,9 +1194,7 @@ header .container .btn button:hover {
     font-weight: bold;
 } */
 
-
 /* ================#22 ==============  */
-
 
 /* #btn {
     position: absolute;
@@ -1282,9 +1239,7 @@ header .container {
     object-fit: cover;
 } */
 
-
 /* ================#23 ==============  */
-
 
 /* header {
     width: 100%;
@@ -1334,9 +1289,7 @@ header .container .card #comment-sec button {
     cursor: pointer;
 } */
 
-
 /* ================#24 ==============  */
-
 
 /* 
 header {
@@ -1411,9 +1364,7 @@ header .container .task-list li {
 
 */
 
-
 /* ================#25 ==============  */
-
 
 /* 
 header {
@@ -1494,9 +1445,7 @@ header #loading-btn {
     display: flex;
 } */
 
-
 /* ================#26 ==============  */
-
 
 /*     
     #header {
@@ -1539,9 +1488,7 @@ header #loading-btn {
         z-index: 100;
     } */
 
-
 /* ================#27 ==============  */
-
 
 /*     
     #header {
@@ -1575,9 +1522,7 @@ header #loading-btn {
         padding: 2rem 0rem;
     } */
 
-
 /* ================#28 ==============  */
-
 
 /*     
     #header {
@@ -1614,7 +1559,6 @@ header #loading-btn {
         transition: all 0.2s;
         /* display: none; */
 
-
 /* }
 #buttun i:hover #card-2 {
     left: 0px;
@@ -1639,9 +1583,7 @@ header #loading-btn {
     cursor: pointer;
 } */
 
-
 /* ================#29 ==============  */
-
 
 /* header {
     width: 100%;
@@ -1691,9 +1633,7 @@ header .container #card-container-2 .card {
     }
 } */
 
-
 /* ================#30 ==============  */
-
 
 /* header {
     width: 100vw;
@@ -1757,7 +1697,6 @@ button {
     }
 } */
 
-
 /* ================#31 ==============  */
 
 /* header {
@@ -1802,7 +1741,6 @@ header .container .log-in button{
     padding: 1rem;
     cursor: pointer;
 } */
-
 
 /* ====PRACTICE CODE : #33 (scroll up-down navbar section drop-up)======= */
 
@@ -2266,7 +2204,6 @@ header .container .card {
   }
 } */
 
-
 /* --- second section----  */
 /* #second{
     width: 100%;
@@ -2327,7 +2264,6 @@ header .container .card {
       opacity: 1;
     }
   } */
-
 
 /*     <!-- ====PRACTICE CODE : #40(Humburger menu)=======  --> */
 /* header {
@@ -2404,3 +2340,95 @@ header .container #menu-icon i {
 }
 
  */
+
+/*     <!-- ====PRACTICE CODE : #41======  --> */
+/* 
+header {
+  width: 100%;
+  height: auto;
+}
+
+header .container {
+  width: 90%;
+  margin: auto;
+  padding: 2rem 0rem;
+}
+header .container .box {
+  width: 100%;
+  padding: 2rem 0rem;
+}
+
+header .container .box1 .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header .container .box1 .content p {
+  cursor: pointer;
+}
+
+header .container .box2 {
+  width: 100%;
+}
+
+header .container .box2 .show-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header .container .box2 .show-box .card {
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+
+header .container .box2 #show-card-1 .card {
+  background-color: rgba(128, 128, 128, 0.313);
+}
+header .container .box2 #show-card-2 .card {
+  background-color: rgba(211, 206, 69, 0.523);
+}
+header .container .box2 #show-card-3 .card {
+  background-color: rgba(219, 68, 196, 0.562);
+}
+
+.anime-1 {
+  animation: animeOne 2s ease 0s 1 forwards alternate;
+}
+.anime-2 {
+  animation: animeTwo 2s ease 0s 1 forwards alternate;
+}
+.anime-3 {
+  animation: animeThree 2s ease 0s 1 forwards alternate;
+}
+
+@keyframes animeOne {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes animeTwo {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes animeThree {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+
+/* ====PRACTICE CODE : #42()=======   */

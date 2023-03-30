@@ -758,7 +758,7 @@ document.addEventListener('scroll', () => {
 // });
 
 
- <!-- ====PRACTICE CODE : #40(Humburger menu)=======  --> */
+//  ====PRACTICE CODE : #40(Humburger menu)======= 
 // let myBtn = document.getElementById("my-btn");
 // let myNav = document.getElementById("nav");
 
@@ -790,3 +790,45 @@ document.addEventListener('scroll', () => {
 // myNav.classList.add('anime');
 
 
+//  ====PRACTICE CODE : #41======= 
+
+// let featureOneBtn = document.getElementById('feature-1');
+// let featureTwoBtn = document.getElementById('feature-2');
+// let featureThreeBtn = document.getElementById('feature-3');
+
+// let featureOneCardBox = document.getElementById('show-card-1');
+// let featureTwoCardBox = document.getElementById('show-card-2');
+// let featureThreeCardBox = document.getElementById('show-card-3');
+
+// // featureOneCardBox.style.display = 'none';
+// featureTwoCardBox.style.display = 'none';
+// featureThreeCardBox.style.display = 'none';
+
+
+// featureOneBtn.addEventListener('click', function(){
+//     featureOneCardBox.style.display = 'flex';
+//     featureTwoCardBox.style.display = 'none';
+// featureThreeCardBox.style.display = 'none';
+
+// featureOneCardBox.classList.add('anime-1');
+// })
+
+
+// featureTwoBtn.addEventListener('click', function(){
+//     featureOneCardBox.style.display = 'none';
+//     featureTwoCardBox.style.display = 'flex';
+// featureThreeCardBox.style.display = 'none';
+
+// featureTwoCardBox.classList.add('anime-2');
+// })
+
+
+// featureThreeBtn.addEventListener('click', function(){
+//     featureOneCardBox.style.display = 'none';
+//     featureTwoCardBox.style.display = 'none';
+// featureThreeCardBox.style.display = 'flex';
+
+// featureThreeCardBox.classList.add('anime-3');
+// })
+
+// ====PRACTICE CODE : #42()=======  
